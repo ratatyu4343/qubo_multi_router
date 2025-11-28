@@ -1,0 +1,113 @@
+{
+  "experiment": "compare_routers_10x10_543",
+  "run_id": "9c6a9e9bae42",
+  "config": {
+    "name": "quantum_astar",
+    "algorithm": "quantum",
+    "router_kwargs": {
+      "num_reads": 250,
+      "cost_weight": 1.0,
+      "turn_weight": 0.001,
+      "onepath_weight": 10.0,
+      "conflict_weight": 100.0,
+      "P_H": 100.0,
+      "use_dwave": false
+    },
+    "solve_kwargs": {
+      "method": "astar",
+      "per_net_limit": 30,
+      "max_layers": 1
+    },
+    "metadata": {
+      "description": "Quantum annealing sweep over per-net candidate count",
+      "num_reads": 250,
+      "candidate_method": "astar"
+    }
+  },
+  "algorithm": "quantum",
+  "timestamp": "20251105_190354",
+  "total_nets": 2,
+  "routed_net_names": [
+    "Net_1",
+    "Net_2"
+  ],
+  "unrouted_net_names": [],
+  "net_pin_mapping": {
+    "Net_1": {
+      "src_pin": "P1",
+      "dst_pin": "P4"
+    },
+    "Net_2": {
+      "src_pin": "P1",
+      "dst_pin": "P3"
+    }
+  },
+  "router_state": {
+    "seed": null,
+    "annealer": "QuantumAnnealer",
+    "default_candidate_method": "astar"
+  },
+  "paths": {
+    "Net_1": [
+      [
+        4,
+        6,
+        0
+      ],
+      [
+        3,
+        6,
+        0
+      ],
+      [
+        2,
+        6,
+        0
+      ],
+      [
+        1,
+        6,
+        0
+      ]
+    ],
+    "Net_2": [
+      [
+        4,
+        6,
+        0
+      ],
+      [
+        5,
+        6,
+        0
+      ],
+      [
+        6,
+        6,
+        0
+      ],
+      [
+        7,
+        6,
+        0
+      ],
+      [
+        8,
+        6,
+        0
+      ],
+      [
+        8,
+        7,
+        0
+      ],
+      [
+        8,
+        8,
+        0
+      ]
+    ]
+  },
+  "cell_conflicts": 0,
+  "conflict_cells": []
+}

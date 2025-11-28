@@ -1,0 +1,25 @@
+{
+  "experiment": "compare_routers_10x10_804",
+  "run_id": "a85e97e1a74d",
+  "name": "classical_beam",
+  "algorithm": "beam",
+  "config": {
+    "name": "classical_beam",
+    "algorithm": "beam",
+    "router_kwargs": {
+      "max_layers": 1
+    },
+    "solve_kwargs": {},
+    "metadata": {}
+  },
+  "router_state": {},
+  "timestamp": "20251105_201909",
+  "metrics": {
+    "total_nets": 11,
+    "routed_nets": 4,
+    "total_length": 37,
+    "total_turns": 5,
+    "layers_used": 1,
+    "cell_conflicts": 0
+  }
+}

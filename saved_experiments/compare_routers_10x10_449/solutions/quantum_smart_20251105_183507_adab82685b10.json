@@ -1,0 +1,103 @@
+{
+  "experiment": "compare_routers_10x10_449",
+  "run_id": "adab82685b10",
+  "config": {
+    "name": "quantum_smart",
+    "algorithm": "quantum",
+    "router_kwargs": {
+      "num_reads": 250,
+      "cost_weight": 1.0,
+      "turn_weight": 0.001,
+      "onepath_weight": 10.0,
+      "conflict_weight": 100.0,
+      "P_H": 100.0,
+      "use_dwave": false
+    },
+    "solve_kwargs": {
+      "method": "smart",
+      "per_net_limit": 30,
+      "max_layers": 1
+    },
+    "metadata": {
+      "description": "Quantum annealing sweep over per-net candidate count",
+      "num_reads": 250,
+      "candidate_method": "smart"
+    }
+  },
+  "algorithm": "quantum",
+  "timestamp": "20251105_183507",
+  "total_nets": 7,
+  "routed_net_names": [
+    "Net_3"
+  ],
+  "unrouted_net_names": [
+    "Net_1",
+    "Net_2",
+    "Net_4",
+    "Net_5",
+    "Net_6",
+    "Net_7"
+  ],
+  "net_pin_mapping": {
+    "Net_1": {
+      "src_pin": "P1",
+      "dst_pin": "P2"
+    },
+    "Net_2": {
+      "src_pin": "P1",
+      "dst_pin": "P2"
+    },
+    "Net_3": {
+      "src_pin": "P2",
+      "dst_pin": "P1"
+    },
+    "Net_4": {
+      "src_pin": "P2",
+      "dst_pin": "P1"
+    },
+    "Net_5": {
+      "src_pin": "P1",
+      "dst_pin": "P2"
+    },
+    "Net_6": {
+      "src_pin": "P2",
+      "dst_pin": "P1"
+    },
+    "Net_7": {
+      "src_pin": "P1",
+      "dst_pin": "P2"
+    }
+  },
+  "router_state": {
+    "seed": null,
+    "annealer": "QuantumAnnealer",
+    "default_candidate_method": "astar"
+  },
+  "paths": {
+    "Net_1": [],
+    "Net_2": [],
+    "Net_3": [
+      [
+        1,
+        5,
+        0
+      ],
+      [
+        2,
+        5,
+        0
+      ],
+      [
+        3,
+        5,
+        0
+      ]
+    ],
+    "Net_4": [],
+    "Net_5": [],
+    "Net_6": [],
+    "Net_7": []
+  },
+  "cell_conflicts": 0,
+  "conflict_cells": []
+}

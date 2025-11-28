@@ -1,0 +1,80 @@
+{
+  "experiment": "compare_routers_10x10_259",
+  "run_id": "bb2204cfca72",
+  "config": {
+    "name": "classical_beam",
+    "algorithm": "beam",
+    "router_kwargs": {
+      "max_layers": 1
+    },
+    "solve_kwargs": {},
+    "metadata": {}
+  },
+  "algorithm": "beam",
+  "timestamp": "20251105_174417",
+  "total_nets": 2,
+  "routed_net_names": [
+    "Net_1",
+    "Net_2"
+  ],
+  "unrouted_net_names": [],
+  "net_pin_mapping": {
+    "Net_1": {
+      "src_pin": "P5",
+      "dst_pin": "P2"
+    },
+    "Net_2": {
+      "src_pin": "P2",
+      "dst_pin": "P9"
+    }
+  },
+  "router_state": {},
+  "paths": {
+    "Net_1": [
+      [
+        5,
+        2,
+        0
+      ],
+      [
+        5,
+        3,
+        0
+      ],
+      [
+        5,
+        4,
+        0
+      ],
+      [
+        5,
+        5,
+        0
+      ],
+      [
+        6,
+        5,
+        0
+      ]
+    ],
+    "Net_2": [
+      [
+        6,
+        5,
+        0
+      ],
+      [
+        6,
+        6,
+        0
+      ],
+      [
+        6,
+        7,
+        0
+      ]
+    ]
+  },
+  "cell_conflicts": 0,
+  "conflict_cells": []
+}

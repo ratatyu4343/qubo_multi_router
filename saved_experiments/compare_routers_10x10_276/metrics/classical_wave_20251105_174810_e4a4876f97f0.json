@@ -1,0 +1,25 @@
+{
+  "experiment": "compare_routers_10x10_276",
+  "run_id": "e4a4876f97f0",
+  "name": "classical_wave",
+  "algorithm": "wave",
+  "config": {
+    "name": "classical_wave",
+    "algorithm": "wave",
+    "router_kwargs": {
+      "max_layers": 1
+    },
+    "solve_kwargs": {},
+    "metadata": {}
+  },
+  "router_state": {},
+  "timestamp": "20251105_174810",
+  "metrics": {
+    "total_nets": 26,
+    "routed_nets": 7,
+    "total_length": 59,
+    "total_turns": 20,
+    "layers_used": 1,
+    "cell_conflicts": 0
+  }
+}

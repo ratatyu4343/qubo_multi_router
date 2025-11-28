@@ -1,0 +1,495 @@
+{
+  "experiment": "compare_routers_10x10_811",
+  "run_id": "714ce7561139",
+  "config": {
+    "name": "quantum_astar",
+    "algorithm": "quantum",
+    "router_kwargs": {
+      "num_reads": 250,
+      "cost_weight": 1.0,
+      "turn_weight": 0.001,
+      "onepath_weight": 10.0,
+      "conflict_weight": 100.0,
+      "P_H": 100.0,
+      "use_dwave": false
+    },
+    "solve_kwargs": {
+      "method": "astar",
+      "per_net_limit": 30,
+      "max_layers": 1
+    },
+    "metadata": {
+      "description": "Quantum annealing sweep over per-net candidate count",
+      "num_reads": 250,
+      "candidate_method": "astar"
+    }
+  },
+  "algorithm": "quantum",
+  "timestamp": "20251105_202101",
+  "total_nets": 21,
+  "routed_net_names": [
+    "Net_3",
+    "Net_5",
+    "Net_12",
+    "Net_13",
+    "Net_15",
+    "Net_16",
+    "Net_18",
+    "Net_19",
+    "Net_20"
+  ],
+  "unrouted_net_names": [
+    "Net_1",
+    "Net_2",
+    "Net_4",
+    "Net_6",
+    "Net_7",
+    "Net_8",
+    "Net_9",
+    "Net_10",
+    "Net_11",
+    "Net_14",
+    "Net_17",
+    "Net_21"
+  ],
+  "net_pin_mapping": {
+    "Net_1": {
+      "src_pin": "P3",
+      "dst_pin": "P4"
+    },
+    "Net_2": {
+      "src_pin": "P6",
+      "dst_pin": "P8"
+    },
+    "Net_3": {
+      "src_pin": "P2",
+      "dst_pin": "P4"
+    },
+    "Net_4": {
+      "src_pin": "P2",
+      "dst_pin": "P10"
+    },
+    "Net_5": {
+      "src_pin": "P10",
+      "dst_pin": "P7"
+    },
+    "Net_6": {
+      "src_pin": "P9",
+      "dst_pin": "P7"
+    },
+    "Net_7": {
+      "src_pin": "P1",
+      "dst_pin": "P3"
+    },
+    "Net_8": {
+      "src_pin": "P2",
+      "dst_pin": "P1"
+    },
+    "Net_9": {
+      "src_pin": "P10",
+      "dst_pin": "P4"
+    },
+    "Net_10": {
+      "src_pin": "P6",
+      "dst_pin": "P3"
+    },
+    "Net_11": {
+      "src_pin": "P6",
+      "dst_pin": "P8"
+    },
+    "Net_12": {
+      "src_pin": "P2",
+      "dst_pin": "P9"
+    },
+    "Net_13": {
+      "src_pin": "P3",
+      "dst_pin": "P4"
+    },
+    "Net_14": {
+      "src_pin": "P6",
+      "dst_pin": "P3"
+    },
+    "Net_15": {
+      "src_pin": "P10",
+      "dst_pin": "P5"
+    },
+    "Net_16": {
+      "src_pin": "P2",
+      "dst_pin": "P6"
+    },
+    "Net_17": {
+      "src_pin": "P10",
+      "dst_pin": "P8"
+    },
+    "Net_18": {
+      "src_pin": "P10",
+      "dst_pin": "P7"
+    },
+    "Net_19": {
+      "src_pin": "P8",
+      "dst_pin": "P9"
+    },
+    "Net_20": {
+      "src_pin": "P8",
+      "dst_pin": "P4"
+    },
+    "Net_21": {
+      "src_pin": "P7",
+      "dst_pin": "P5"
+    }
+  },
+  "router_state": {
+    "seed": null,
+    "annealer": "QuantumAnnealer",
+    "default_candidate_method": "astar"
+  },
+  "paths": {
+    "Net_1": [],
+    "Net_2": [],
+    "Net_3": [
+      [
+        4,
+        0,
+        0
+      ],
+      [
+        4,
+        1,
+        0
+      ],
+      [
+        4,
+        2,
+        0
+      ],
+      [
+        4,
+        3,
+        0
+      ],
+      [
+        4,
+        4,
+        0
+      ],
+      [
+        3,
+        4,
+        0
+      ],
+      [
+        3,
+        5,
+        0
+      ],
+      [
+        3,
+        6,
+        0
+      ],
+      [
+        3,
+        7,
+        0
+      ],
+      [
+        4,
+        7,
+        0
+      ]
+    ],
+    "Net_4": [],
+    "Net_5": [
+      [
+        7,
+        9,
+        0
+      ],
+      [
+        7,
+        8,
+        0
+      ],
+      [
+        7,
+        7,
+        0
+      ],
+      [
+        7,
+        6,
+        0
+      ]
+    ],
+    "Net_6": [],
+    "Net_7": [],
+    "Net_8": [],
+    "Net_9": [],
+    "Net_10": [],
+    "Net_11": [],
+    "Net_12": [
+      [
+        4,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "Net_13": [
+      [
+        9,
+        7,
+        0
+      ],
+      [
+        9,
+        6,
+        0
+      ],
+      [
+        9,
+        5,
+        0
+      ],
+      [
+        8,
+        5,
+        0
+      ],
+      [
+        7,
+        5,
+        0
+      ],
+      [
+        6,
+        5,
+        0
+      ],
+      [
+        6,
+        6,
+        0
+      ],
+      [
+        5,
+        6,
+        0
+      ],
+      [
+        4,
+        6,
+        0
+      ],
+      [
+        4,
+        7,
+        0
+      ]
+    ],
+    "Net_14": [],
+    "Net_15": [
+      [
+        7,
+        9,
+        0
+      ],
+      [
+        6,
+        9,
+        0
+      ],
+      [
+        5,
+        9,
+        0
+      ],
+      [
+        4,
+        9,
+        0
+      ],
+      [
+        3,
+        9,
+        0
+      ]
+    ],
+    "Net_16": [
+      [
+        4,
+        0,
+        0
+      ],
+      [
+        5,
+        0,
+        0
+      ],
+      [
+        5,
+        1,
+        0
+      ],
+      [
+        5,
+        2,
+        0
+      ],
+      [
+        5,
+        3,
+        0
+      ],
+      [
+        5,
+        4,
+        0
+      ],
+      [
+        5,
+        5,
+        0
+      ],
+      [
+        4,
+        5,
+        0
+      ]
+    ],
+    "Net_17": [],
+    "Net_18": [
+      [
+        7,
+        9,
+        0
+      ],
+      [
+        8,
+        9,
+        0
+      ],
+      [
+        8,
+        8,
+        0
+      ],
+      [
+        8,
+        7,
+        0
+      ],
+      [
+        8,
+        6,
+        0
+      ],
+      [
+        7,
+        6,
+        0
+      ]
+    ],
+    "Net_19": [
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "Net_20": [
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        1,
+        3,
+        0
+      ],
+      [
+        1,
+        4,
+        0
+      ],
+      [
+        1,
+        5,
+        0
+      ],
+      [
+        1,
+        6,
+        0
+      ],
+      [
+        1,
+        7,
+        0
+      ],
+      [
+        1,
+        8,
+        0
+      ],
+      [
+        2,
+        8,
+        0
+      ],
+      [
+        3,
+        8,
+        0
+      ],
+      [
+        4,
+        8,
+        0
+      ],
+      [
+        4,
+        7,
+        0
+      ]
+    ],
+    "Net_21": []
+  },
+  "cell_conflicts": 0,
+  "conflict_cells": []
+}

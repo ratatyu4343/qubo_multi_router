@@ -1,0 +1,90 @@
+{
+  "experiment": "compare_routers_10x10_88",
+  "run_id": "0eaba4098989",
+  "config": {
+    "name": "classical_wave",
+    "algorithm": "wave",
+    "router_kwargs": {
+      "max_layers": 1
+    },
+    "solve_kwargs": {},
+    "metadata": {}
+  },
+  "algorithm": "wave",
+  "timestamp": "20251105_165501",
+  "total_nets": 2,
+  "routed_net_names": [
+    "Net_1",
+    "Net_2"
+  ],
+  "unrouted_net_names": [],
+  "net_pin_mapping": {
+    "Net_1": {
+      "src_pin": "P7",
+      "dst_pin": "P5"
+    },
+    "Net_2": {
+      "src_pin": "P4",
+      "dst_pin": "P7"
+    }
+  },
+  "router_state": {},
+  "paths": {
+    "Net_1": [
+      [
+        8,
+        3,
+        0
+      ],
+      [
+        8,
+        2,
+        0
+      ],
+      [
+        8,
+        1,
+        0
+      ],
+      [
+        8,
+        0,
+        0
+      ],
+      [
+        7,
+        0,
+        0
+      ],
+      [
+        6,
+        0,
+        0
+      ],
+      [
+        5,
+        0,
+        0
+      ]
+    ],
+    "Net_2": [
+      [
+        8,
+        5,
+        0
+      ],
+      [
+        8,
+        4,
+        0
+      ],
+      [
+        8,
+        3,
+        0
+      ]
+    ]
+  },
+  "cell_conflicts": 0,
+  "conflict_cells": []
+}

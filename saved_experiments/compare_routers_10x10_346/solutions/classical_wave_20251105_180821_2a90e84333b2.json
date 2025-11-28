@@ -1,0 +1,162 @@
+{
+  "experiment": "compare_routers_10x10_346",
+  "run_id": "2a90e84333b2",
+  "config": {
+    "name": "classical_wave",
+    "algorithm": "wave",
+    "router_kwargs": {
+      "max_layers": 1
+    },
+    "solve_kwargs": {},
+    "metadata": {}
+  },
+  "algorithm": "wave",
+  "timestamp": "20251105_180821",
+  "total_nets": 3,
+  "routed_net_names": [
+    "Net_1",
+    "Net_2",
+    "Net_3"
+  ],
+  "unrouted_net_names": [],
+  "net_pin_mapping": {
+    "Net_1": {
+      "src_pin": "P7",
+      "dst_pin": "P8"
+    },
+    "Net_2": {
+      "src_pin": "P4",
+      "dst_pin": "P3"
+    },
+    "Net_3": {
+      "src_pin": "P5",
+      "dst_pin": "P4"
+    }
+  },
+  "router_state": {},
+  "paths": {
+    "Net_1": [
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        2,
+        0
+      ],
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        0
+      ]
+    ],
+    "Net_2": [
+      [
+        9,
+        9,
+        0
+      ],
+      [
+        8,
+        9,
+        0
+      ],
+      [
+        7,
+        9,
+        0
+      ],
+      [
+        6,
+        9,
+        0
+      ],
+      [
+        5,
+        9,
+        0
+      ],
+      [
+        5,
+        8,
+        0
+      ],
+      [
+        4,
+        8,
+        0
+      ],
+      [
+        3,
+        8,
+        0
+      ]
+    ],
+    "Net_3": [
+      [
+        4,
+        5,
+        0
+      ],
+      [
+        5,
+        5,
+        0
+      ],
+      [
+        6,
+        5,
+        0
+      ],
+      [
+        7,
+        5,
+        0
+      ],
+      [
+        8,
+        5,
+        0
+      ],
+      [
+        9,
+        5,
+        0
+      ],
+      [
+        9,
+        6,
+        0
+      ],
+      [
+        9,
+        7,
+        0
+      ],
+      [
+        9,
+        8,
+        0
+      ],
+      [
+        9,
+        9,
+        0
+      ]
+    ]
+  },
+  "cell_conflicts": 0,
+  "conflict_cells": []
+}

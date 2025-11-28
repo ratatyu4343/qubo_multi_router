@@ -1,0 +1,56 @@
+{
+  "experiment": "compare_routers_10x10_640",
+  "rows": 10,
+  "cols": 10,
+  "blocked": [],
+  "total_nets": 2,
+  "pins": {
+    "P5": {
+      "coords": [
+        1,
+        1,
+        0
+      ]
+    },
+    "P1": {
+      "coords": [
+        2,
+        7,
+        0
+      ]
+    }
+  },
+  "nets": [
+    {
+      "name": "Net_1",
+      "src_pin": "P5",
+      "dst_pin": "P1",
+      "src": [
+        1,
+        1,
+        0
+      ],
+      "dst": [
+        2,
+        7,
+        0
+      ]
+    },
+    {
+      "name": "Net_2",
+      "src_pin": "P1",
+      "dst_pin": "P5",
+      "src": [
+        2,
+        7,
+        0
+      ],
+      "dst": [
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "created_at": "20251105_192946"
+}

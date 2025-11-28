@@ -1,0 +1,43 @@
+{
+  "experiment": "compare_routers_10x10_222",
+  "run_id": "cd6201ae2676",
+  "name": "quantum_astar",
+  "algorithm": "quantum",
+  "config": {
+    "name": "quantum_astar",
+    "algorithm": "quantum",
+    "router_kwargs": {
+      "num_reads": 250,
+      "cost_weight": 1.0,
+      "turn_weight": 0.001,
+      "onepath_weight": 10.0,
+      "conflict_weight": 100.0,
+      "P_H": 100.0,
+      "use_dwave": false
+    },
+    "solve_kwargs": {
+      "method": "astar",
+      "per_net_limit": 30,
+      "max_layers": 1
+    },
+    "metadata": {
+      "description": "Quantum annealing sweep over per-net candidate count",
+      "num_reads": 250,
+      "candidate_method": "astar"
+    }
+  },
+  "router_state": {
+    "seed": null,
+    "annealer": "QuantumAnnealer",
+    "default_candidate_method": "astar"
+  },
+  "timestamp": "20251105_173341",
+  "metrics": {
+    "total_nets": 14,
+    "routed_nets": 7,
+    "total_length": 51,
+    "total_turns": 13,
+    "layers_used": 1,
+    "cell_conflicts": 0
+  }
+}

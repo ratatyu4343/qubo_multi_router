@@ -1,0 +1,289 @@
+{
+  "experiment": "compare_routers_10x10_908",
+  "run_id": "3118b1b2d7b3",
+  "config": {
+    "name": "quantum_smartv2",
+    "algorithm": "quantum",
+    "router_kwargs": {
+      "num_reads": 250,
+      "cost_weight": 1.0,
+      "turn_weight": 0.001,
+      "onepath_weight": 10.0,
+      "conflict_weight": 100.0,
+      "P_H": 100.0,
+      "use_dwave": false
+    },
+    "solve_kwargs": {
+      "method": "smartv2",
+      "per_net_limit": 30,
+      "max_layers": 1
+    },
+    "metadata": {
+      "description": "Quantum annealing sweep over per-net candidate count",
+      "num_reads": 250,
+      "candidate_method": "smartv2"
+    }
+  },
+  "algorithm": "quantum",
+  "timestamp": "20251105_205212",
+  "total_nets": 5,
+  "routed_net_names": [
+    "Net_1",
+    "Net_2",
+    "Net_3",
+    "Net_5"
+  ],
+  "unrouted_net_names": [
+    "Net_4"
+  ],
+  "net_pin_mapping": {
+    "Net_1": {
+      "src_pin": "P5",
+      "dst_pin": "P1"
+    },
+    "Net_2": {
+      "src_pin": "P2",
+      "dst_pin": "P3"
+    },
+    "Net_3": {
+      "src_pin": "P5",
+      "dst_pin": "P3"
+    },
+    "Net_4": {
+      "src_pin": "P4",
+      "dst_pin": "P2"
+    },
+    "Net_5": {
+      "src_pin": "P4",
+      "dst_pin": "P1"
+    }
+  },
+  "router_state": {
+    "seed": null,
+    "annealer": "QuantumAnnealer",
+    "default_candidate_method": "astar"
+  },
+  "paths": {
+    "Net_1": [
+      [
+        8,
+        1,
+        0
+      ],
+      [
+        8,
+        2,
+        0
+      ],
+      [
+        8,
+        3,
+        0
+      ],
+      [
+        8,
+        4,
+        0
+      ],
+      [
+        8,
+        5,
+        0
+      ],
+      [
+        8,
+        6,
+        0
+      ],
+      [
+        8,
+        7,
+        0
+      ],
+      [
+        8,
+        8,
+        0
+      ],
+      [
+        8,
+        9,
+        0
+      ],
+      [
+        7,
+        9,
+        0
+      ],
+      [
+        6,
+        9,
+        0
+      ],
+      [
+        5,
+        9,
+        0
+      ]
+    ],
+    "Net_2": [
+      [
+        7,
+        8,
+        0
+      ],
+      [
+        6,
+        8,
+        0
+      ],
+      [
+        5,
+        8,
+        0
+      ],
+      [
+        4,
+        8,
+        0
+      ],
+      [
+        3,
+        8,
+        0
+      ],
+      [
+        3,
+        7,
+        0
+      ],
+      [
+        3,
+        6,
+        0
+      ],
+      [
+        3,
+        5,
+        0
+      ],
+      [
+        3,
+        4,
+        0
+      ],
+      [
+        3,
+        3,
+        0
+      ],
+      [
+        3,
+        2,
+        0
+      ],
+      [
+        3,
+        1,
+        0
+      ]
+    ],
+    "Net_3": [
+      [
+        8,
+        1,
+        0
+      ],
+      [
+        7,
+        1,
+        0
+      ],
+      [
+        6,
+        1,
+        0
+      ],
+      [
+        5,
+        1,
+        0
+      ],
+      [
+        4,
+        1,
+        0
+      ],
+      [
+        3,
+        1,
+        0
+      ]
+    ],
+    "Net_4": [],
+    "Net_5": [
+      [
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        5,
+        0
+      ],
+      [
+        0,
+        6,
+        0
+      ],
+      [
+        0,
+        7,
+        0
+      ],
+      [
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        9,
+        0
+      ],
+      [
+        1,
+        9,
+        0
+      ],
+      [
+        2,
+        9,
+        0
+      ],
+      [
+        3,
+        9,
+        0
+      ],
+      [
+        4,
+        9,
+        0
+      ],
+      [
+        5,
+        9,
+        0
+      ]
+    ]
+  },
+  "cell_conflicts": 0,
+  "conflict_cells": []
+}

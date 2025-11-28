@@ -1,0 +1,275 @@
+{
+  "experiment": "compare_routers_10x10_395",
+  "run_id": "9a773d7678f7",
+  "config": {
+    "name": "classical_wave",
+    "algorithm": "wave",
+    "router_kwargs": {
+      "max_layers": 1
+    },
+    "solve_kwargs": {},
+    "metadata": {}
+  },
+  "algorithm": "wave",
+  "timestamp": "20251105_182144",
+  "total_nets": 14,
+  "routed_net_names": [
+    "Net_1",
+    "Net_2",
+    "Net_3",
+    "Net_5"
+  ],
+  "unrouted_net_names": [
+    "Net_4",
+    "Net_6",
+    "Net_7",
+    "Net_8",
+    "Net_9",
+    "Net_10",
+    "Net_11",
+    "Net_12",
+    "Net_13",
+    "Net_14"
+  ],
+  "net_pin_mapping": {
+    "Net_1": {
+      "src_pin": "P3",
+      "dst_pin": "P1"
+    },
+    "Net_2": {
+      "src_pin": "P2",
+      "dst_pin": "P1"
+    },
+    "Net_3": {
+      "src_pin": "P1",
+      "dst_pin": "P2"
+    },
+    "Net_4": {
+      "src_pin": "P1",
+      "dst_pin": "P3"
+    },
+    "Net_5": {
+      "src_pin": "P3",
+      "dst_pin": "P2"
+    },
+    "Net_6": {
+      "src_pin": "P1",
+      "dst_pin": "P3"
+    },
+    "Net_7": {
+      "src_pin": "P3",
+      "dst_pin": "P2"
+    },
+    "Net_8": {
+      "src_pin": "P1",
+      "dst_pin": "P2"
+    },
+    "Net_9": {
+      "src_pin": "P1",
+      "dst_pin": "P3"
+    },
+    "Net_10": {
+      "src_pin": "P2",
+      "dst_pin": "P1"
+    },
+    "Net_11": {
+      "src_pin": "P2",
+      "dst_pin": "P3"
+    },
+    "Net_12": {
+      "src_pin": "P1",
+      "dst_pin": "P2"
+    },
+    "Net_13": {
+      "src_pin": "P2",
+      "dst_pin": "P1"
+    },
+    "Net_14": {
+      "src_pin": "P2",
+      "dst_pin": "P1"
+    }
+  },
+  "router_state": {},
+  "paths": {
+    "Net_1": [
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        3,
+        1,
+        0
+      ],
+      [
+        4,
+        1,
+        0
+      ],
+      [
+        5,
+        1,
+        0
+      ],
+      [
+        5,
+        0,
+        0
+      ],
+      [
+        6,
+        0,
+        0
+      ],
+      [
+        7,
+        0,
+        0
+      ]
+    ],
+    "Net_2": [
+      [
+        4,
+        3,
+        0
+      ],
+      [
+        5,
+        3,
+        0
+      ],
+      [
+        6,
+        3,
+        0
+      ],
+      [
+        6,
+        2,
+        0
+      ],
+      [
+        6,
+        1,
+        0
+      ],
+      [
+        7,
+        1,
+        0
+      ],
+      [
+        7,
+        0,
+        0
+      ]
+    ],
+    "Net_3": [
+      [
+        7,
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        0
+      ],
+      [
+        8,
+        1,
+        0
+      ],
+      [
+        8,
+        2,
+        0
+      ],
+      [
+        8,
+        3,
+        0
+      ],
+      [
+        8,
+        4,
+        0
+      ],
+      [
+        7,
+        4,
+        0
+      ],
+      [
+        6,
+        4,
+        0
+      ],
+      [
+        5,
+        4,
+        0
+      ],
+      [
+        4,
+        4,
+        0
+      ],
+      [
+        4,
+        3,
+        0
+      ]
+    ],
+    "Net_4": [],
+    "Net_5": [
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        2,
+        2,
+        0
+      ],
+      [
+        3,
+        2,
+        0
+      ],
+      [
+        3,
+        3,
+        0
+      ],
+      [
+        4,
+        3,
+        0
+      ]
+    ],
+    "Net_6": [],
+    "Net_7": [],
+    "Net_8": [],
+    "Net_9": [],
+    "Net_10": [],
+    "Net_11": [],
+    "Net_12": [],
+    "Net_13": [],
+    "Net_14": []
+  },
+  "cell_conflicts": 0,
+  "conflict_cells": []
+}

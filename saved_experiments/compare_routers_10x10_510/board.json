@@ -1,0 +1,446 @@
+{
+  "experiment": "compare_routers_10x10_510",
+  "rows": 10,
+  "cols": 10,
+  "blocked": [],
+  "total_nets": 28,
+  "pins": {
+    "P2": {
+      "coords": [
+        2,
+        3,
+        0
+      ]
+    },
+    "P1": {
+      "coords": [
+        5,
+        9,
+        0
+      ]
+    }
+  },
+  "nets": [
+    {
+      "name": "Net_1",
+      "src_pin": "P2",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        3,
+        0
+      ],
+      "dst": [
+        5,
+        9,
+        0
+      ]
+    },
+    {
+      "name": "Net_2",
+      "src_pin": "P2",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        3,
+        0
+      ],
+      "dst": [
+        5,
+        9,
+        0
+      ]
+    },
+    {
+      "name": "Net_3",
+      "src_pin": "P2",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        3,
+        0
+      ],
+      "dst": [
+        5,
+        9,
+        0
+      ]
+    },
+    {
+      "name": "Net_4",
+      "src_pin": "P1",
+      "dst_pin": "P2",
+      "src": [
+        5,
+        9,
+        0
+      ],
+      "dst": [
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "Net_5",
+      "src_pin": "P1",
+      "dst_pin": "P2",
+      "src": [
+        5,
+        9,
+        0
+      ],
+      "dst": [
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "Net_6",
+      "src_pin": "P2",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        3,
+        0
+      ],
+      "dst": [
+        5,
+        9,
+        0
+      ]
+    },
+    {
+      "name": "Net_7",
+      "src_pin": "P2",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        3,
+        0
+      ],
+      "dst": [
+        5,
+        9,
+        0
+      ]
+    },
+    {
+      "name": "Net_8",
+      "src_pin": "P2",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        3,
+        0
+      ],
+      "dst": [
+        5,
+        9,
+        0
+      ]
+    },
+    {
+      "name": "Net_9",
+      "src_pin": "P1",
+      "dst_pin": "P2",
+      "src": [
+        5,
+        9,
+        0
+      ],
+      "dst": [
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "Net_10",
+      "src_pin": "P2",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        3,
+        0
+      ],
+      "dst": [
+        5,
+        9,
+        0
+      ]
+    },
+    {
+      "name": "Net_11",
+      "src_pin": "P1",
+      "dst_pin": "P2",
+      "src": [
+        5,
+        9,
+        0
+      ],
+      "dst": [
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "Net_12",
+      "src_pin": "P2",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        3,
+        0
+      ],
+      "dst": [
+        5,
+        9,
+        0
+      ]
+    },
+    {
+      "name": "Net_13",
+      "src_pin": "P1",
+      "dst_pin": "P2",
+      "src": [
+        5,
+        9,
+        0
+      ],
+      "dst": [
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "Net_14",
+      "src_pin": "P2",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        3,
+        0
+      ],
+      "dst": [
+        5,
+        9,
+        0
+      ]
+    },
+    {
+      "name": "Net_15",
+      "src_pin": "P2",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        3,
+        0
+      ],
+      "dst": [
+        5,
+        9,
+        0
+      ]
+    },
+    {
+      "name": "Net_16",
+      "src_pin": "P2",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        3,
+        0
+      ],
+      "dst": [
+        5,
+        9,
+        0
+      ]
+    },
+    {
+      "name": "Net_17",
+      "src_pin": "P1",
+      "dst_pin": "P2",
+      "src": [
+        5,
+        9,
+        0
+      ],
+      "dst": [
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "Net_18",
+      "src_pin": "P2",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        3,
+        0
+      ],
+      "dst": [
+        5,
+        9,
+        0
+      ]
+    },
+    {
+      "name": "Net_19",
+      "src_pin": "P1",
+      "dst_pin": "P2",
+      "src": [
+        5,
+        9,
+        0
+      ],
+      "dst": [
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "Net_20",
+      "src_pin": "P2",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        3,
+        0
+      ],
+      "dst": [
+        5,
+        9,
+        0
+      ]
+    },
+    {
+      "name": "Net_21",
+      "src_pin": "P2",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        3,
+        0
+      ],
+      "dst": [
+        5,
+        9,
+        0
+      ]
+    },
+    {
+      "name": "Net_22",
+      "src_pin": "P2",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        3,
+        0
+      ],
+      "dst": [
+        5,
+        9,
+        0
+      ]
+    },
+    {
+      "name": "Net_23",
+      "src_pin": "P1",
+      "dst_pin": "P2",
+      "src": [
+        5,
+        9,
+        0
+      ],
+      "dst": [
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "Net_24",
+      "src_pin": "P1",
+      "dst_pin": "P2",
+      "src": [
+        5,
+        9,
+        0
+      ],
+      "dst": [
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "Net_25",
+      "src_pin": "P1",
+      "dst_pin": "P2",
+      "src": [
+        5,
+        9,
+        0
+      ],
+      "dst": [
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "Net_26",
+      "src_pin": "P2",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        3,
+        0
+      ],
+      "dst": [
+        5,
+        9,
+        0
+      ]
+    },
+    {
+      "name": "Net_27",
+      "src_pin": "P1",
+      "dst_pin": "P2",
+      "src": [
+        5,
+        9,
+        0
+      ],
+      "dst": [
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "Net_28",
+      "src_pin": "P2",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        3,
+        0
+      ],
+      "dst": [
+        5,
+        9,
+        0
+      ]
+    }
+  ],
+  "created_at": "20251105_185342"
+}

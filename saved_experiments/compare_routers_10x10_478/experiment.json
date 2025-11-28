@@ -1,0 +1,94 @@
+{
+  "name": "compare_routers_10x10_478",
+  "output_dir": "saved_experiments",
+  "board_file": "board.json",
+  "configs": [
+    {
+      "name": "classical_beam",
+      "algorithm": "beam",
+      "router_kwargs": {
+        "max_layers": 1
+      },
+      "solve_kwargs": {},
+      "metadata": {}
+    },
+    {
+      "name": "classical_wave",
+      "algorithm": "wave",
+      "router_kwargs": {
+        "max_layers": 1
+      },
+      "solve_kwargs": {},
+      "metadata": {}
+    },
+    {
+      "name": "quantum_astar",
+      "algorithm": "quantum",
+      "router_kwargs": {
+        "num_reads": 250,
+        "cost_weight": 1.0,
+        "turn_weight": 0.001,
+        "onepath_weight": 10.0,
+        "conflict_weight": 100.0,
+        "P_H": 100.0,
+        "use_dwave": false
+      },
+      "solve_kwargs": {
+        "method": "astar",
+        "per_net_limit": 30,
+        "max_layers": 1
+      },
+      "metadata": {
+        "description": "Quantum annealing sweep over per-net candidate count",
+        "num_reads": 250,
+        "candidate_method": "astar"
+      }
+    },
+    {
+      "name": "quantum_smart",
+      "algorithm": "quantum",
+      "router_kwargs": {
+        "num_reads": 250,
+        "cost_weight": 1.0,
+        "turn_weight": 0.001,
+        "onepath_weight": 10.0,
+        "conflict_weight": 100.0,
+        "P_H": 100.0,
+        "use_dwave": false
+      },
+      "solve_kwargs": {
+        "method": "smart",
+        "per_net_limit": 30,
+        "max_layers": 1
+      },
+      "metadata": {
+        "description": "Quantum annealing sweep over per-net candidate count",
+        "num_reads": 250,
+        "candidate_method": "smart"
+      }
+    },
+    {
+      "name": "quantum_smartv2",
+      "algorithm": "quantum",
+      "router_kwargs": {
+        "num_reads": 250,
+        "cost_weight": 1.0,
+        "turn_weight": 0.001,
+        "onepath_weight": 10.0,
+        "conflict_weight": 100.0,
+        "P_H": 100.0,
+        "use_dwave": false
+      },
+      "solve_kwargs": {
+        "method": "smartv2",
+        "per_net_limit": 30,
+        "max_layers": 1
+      },
+      "metadata": {
+        "description": "Quantum annealing sweep over per-net candidate count",
+        "num_reads": 250,
+        "candidate_method": "smartv2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "experiment": "compare_routers_10x10_550",
+  "run_id": "36c62872eb79",
+  "name": "quantum_smartv2",
+  "algorithm": "quantum",
+  "config": {
+    "name": "quantum_smartv2",
+    "algorithm": "quantum",
+    "router_kwargs": {
+      "num_reads": 250,
+      "cost_weight": 1.0,
+      "turn_weight": 0.001,
+      "onepath_weight": 10.0,
+      "conflict_weight": 100.0,
+      "P_H": 100.0,
+      "use_dwave": false
+    },
+    "solve_kwargs": {
+      "method": "smartv2",
+      "per_net_limit": 30,
+      "max_layers": 1
+    },
+    "metadata": {
+      "description": "Quantum annealing sweep over per-net candidate count",
+      "num_reads": 250,
+      "candidate_method": "smartv2"
+    }
+  },
+  "router_state": {
+    "seed": null,
+    "annealer": "QuantumAnnealer",
+    "default_candidate_method": "astar"
+  },
+  "timestamp": "20251105_190524",
+  "metrics": {
+    "total_nets": 17,
+    "routed_nets": 5,
+    "total_length": 36,
+    "total_turns": 5,
+    "layers_used": 1,
+    "cell_conflicts": 0
+  }
+}

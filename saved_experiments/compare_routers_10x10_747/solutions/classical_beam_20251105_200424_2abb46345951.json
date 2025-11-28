@@ -1,0 +1,120 @@
+{
+  "experiment": "compare_routers_10x10_747",
+  "run_id": "2abb46345951",
+  "config": {
+    "name": "classical_beam",
+    "algorithm": "beam",
+    "router_kwargs": {
+      "max_layers": 1
+    },
+    "solve_kwargs": {},
+    "metadata": {}
+  },
+  "algorithm": "beam",
+  "timestamp": "20251105_200424",
+  "total_nets": 2,
+  "routed_net_names": [
+    "Net_1",
+    "Net_2"
+  ],
+  "unrouted_net_names": [],
+  "net_pin_mapping": {
+    "Net_1": {
+      "src_pin": "P4",
+      "dst_pin": "P10"
+    },
+    "Net_2": {
+      "src_pin": "P6",
+      "dst_pin": "P2"
+    }
+  },
+  "router_state": {},
+  "paths": {
+    "Net_1": [
+      [
+        8,
+        9,
+        0
+      ],
+      [
+        8,
+        8,
+        0
+      ],
+      [
+        8,
+        7,
+        0
+      ],
+      [
+        9,
+        7,
+        0
+      ]
+    ],
+    "Net_2": [
+      [
+        2,
+        7,
+        0
+      ],
+      [
+        2,
+        6,
+        0
+      ],
+      [
+        2,
+        5,
+        0
+      ],
+      [
+        2,
+        4,
+        0
+      ],
+      [
+        2,
+        3,
+        0
+      ],
+      [
+        2,
+        2,
+        0
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        3,
+        1,
+        0
+      ],
+      [
+        4,
+        1,
+        0
+      ],
+      [
+        5,
+        1,
+        0
+      ],
+      [
+        6,
+        1,
+        0
+      ],
+      [
+        7,
+        1,
+        0
+      ]
+    ]
+  },
+  "cell_conflicts": 0,
+  "conflict_cells": []
+}

@@ -1,0 +1,196 @@
+{
+  "experiment": "compare_routers_10x10_30",
+  "run_id": "9a4c3ffda350",
+  "config": {
+    "name": "classical_beam",
+    "algorithm": "beam",
+    "router_kwargs": {
+      "max_layers": 1
+    },
+    "solve_kwargs": {},
+    "metadata": {}
+  },
+  "algorithm": "beam",
+  "timestamp": "20251105_163722",
+  "total_nets": 6,
+  "routed_net_names": [
+    "Net_1",
+    "Net_2",
+    "Net_4"
+  ],
+  "unrouted_net_names": [
+    "Net_3",
+    "Net_5",
+    "Net_6"
+  ],
+  "net_pin_mapping": {
+    "Net_1": {
+      "src_pin": "P1",
+      "dst_pin": "P5"
+    },
+    "Net_2": {
+      "src_pin": "P3",
+      "dst_pin": "P1"
+    },
+    "Net_3": {
+      "src_pin": "P4",
+      "dst_pin": "P3"
+    },
+    "Net_4": {
+      "src_pin": "P1",
+      "dst_pin": "P5"
+    },
+    "Net_5": {
+      "src_pin": "P1",
+      "dst_pin": "P5"
+    },
+    "Net_6": {
+      "src_pin": "P4",
+      "dst_pin": "P3"
+    }
+  },
+  "router_state": {},
+  "paths": {
+    "Net_1": [
+      [
+        0,
+        5,
+        0
+      ],
+      [
+        1,
+        5,
+        0
+      ],
+      [
+        2,
+        5,
+        0
+      ],
+      [
+        3,
+        5,
+        0
+      ],
+      [
+        3,
+        6,
+        0
+      ],
+      [
+        3,
+        7,
+        0
+      ],
+      [
+        3,
+        8,
+        0
+      ],
+      [
+        3,
+        9,
+        0
+      ]
+    ],
+    "Net_2": [
+      [
+        7,
+        3,
+        0
+      ],
+      [
+        6,
+        3,
+        0
+      ],
+      [
+        5,
+        3,
+        0
+      ],
+      [
+        4,
+        3,
+        0
+      ],
+      [
+        3,
+        3,
+        0
+      ],
+      [
+        2,
+        3,
+        0
+      ],
+      [
+        1,
+        3,
+        0
+      ],
+      [
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        5,
+        0
+      ]
+    ],
+    "Net_3": [],
+    "Net_4": [
+      [
+        0,
+        5,
+        0
+      ],
+      [
+        0,
+        6,
+        0
+      ],
+      [
+        1,
+        6,
+        0
+      ],
+      [
+        2,
+        6,
+        0
+      ],
+      [
+        2,
+        7,
+        0
+      ],
+      [
+        2,
+        8,
+        0
+      ],
+      [
+        2,
+        9,
+        0
+      ],
+      [
+        3,
+        9,
+        0
+      ]
+    ],
+    "Net_5": [],
+    "Net_6": []
+  },
+  "cell_conflicts": 0,
+  "conflict_cells": []
+}

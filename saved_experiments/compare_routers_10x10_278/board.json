@@ -1,0 +1,348 @@
+{
+  "experiment": "compare_routers_10x10_278",
+  "rows": 10,
+  "cols": 10,
+  "blocked": [],
+  "total_nets": 21,
+  "pins": {
+    "P2": {
+      "coords": [
+        6,
+        3,
+        0
+      ]
+    },
+    "P3": {
+      "coords": [
+        2,
+        6,
+        0
+      ]
+    },
+    "P1": {
+      "coords": [
+        4,
+        0,
+        0
+      ]
+    }
+  },
+  "nets": [
+    {
+      "name": "Net_1",
+      "src_pin": "P2",
+      "dst_pin": "P3",
+      "src": [
+        6,
+        3,
+        0
+      ],
+      "dst": [
+        2,
+        6,
+        0
+      ]
+    },
+    {
+      "name": "Net_2",
+      "src_pin": "P3",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        6,
+        0
+      ],
+      "dst": [
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Net_3",
+      "src_pin": "P3",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        6,
+        0
+      ],
+      "dst": [
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Net_4",
+      "src_pin": "P3",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        6,
+        0
+      ],
+      "dst": [
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Net_5",
+      "src_pin": "P2",
+      "dst_pin": "P1",
+      "src": [
+        6,
+        3,
+        0
+      ],
+      "dst": [
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Net_6",
+      "src_pin": "P1",
+      "dst_pin": "P2",
+      "src": [
+        4,
+        0,
+        0
+      ],
+      "dst": [
+        6,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "Net_7",
+      "src_pin": "P1",
+      "dst_pin": "P2",
+      "src": [
+        4,
+        0,
+        0
+      ],
+      "dst": [
+        6,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "Net_8",
+      "src_pin": "P2",
+      "dst_pin": "P1",
+      "src": [
+        6,
+        3,
+        0
+      ],
+      "dst": [
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Net_9",
+      "src_pin": "P3",
+      "dst_pin": "P2",
+      "src": [
+        2,
+        6,
+        0
+      ],
+      "dst": [
+        6,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "Net_10",
+      "src_pin": "P2",
+      "dst_pin": "P3",
+      "src": [
+        6,
+        3,
+        0
+      ],
+      "dst": [
+        2,
+        6,
+        0
+      ]
+    },
+    {
+      "name": "Net_11",
+      "src_pin": "P3",
+      "dst_pin": "P2",
+      "src": [
+        2,
+        6,
+        0
+      ],
+      "dst": [
+        6,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "Net_12",
+      "src_pin": "P1",
+      "dst_pin": "P2",
+      "src": [
+        4,
+        0,
+        0
+      ],
+      "dst": [
+        6,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "Net_13",
+      "src_pin": "P3",
+      "dst_pin": "P1",
+      "src": [
+        2,
+        6,
+        0
+      ],
+      "dst": [
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Net_14",
+      "src_pin": "P2",
+      "dst_pin": "P1",
+      "src": [
+        6,
+        3,
+        0
+      ],
+      "dst": [
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Net_15",
+      "src_pin": "P1",
+      "dst_pin": "P3",
+      "src": [
+        4,
+        0,
+        0
+      ],
+      "dst": [
+        2,
+        6,
+        0
+      ]
+    },
+    {
+      "name": "Net_16",
+      "src_pin": "P3",
+      "dst_pin": "P2",
+      "src": [
+        2,
+        6,
+        0
+      ],
+      "dst": [
+        6,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "Net_17",
+      "src_pin": "P1",
+      "dst_pin": "P3",
+      "src": [
+        4,
+        0,
+        0
+      ],
+      "dst": [
+        2,
+        6,
+        0
+      ]
+    },
+    {
+      "name": "Net_18",
+      "src_pin": "P3",
+      "dst_pin": "P2",
+      "src": [
+        2,
+        6,
+        0
+      ],
+      "dst": [
+        6,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "Net_19",
+      "src_pin": "P3",
+      "dst_pin": "P2",
+      "src": [
+        2,
+        6,
+        0
+      ],
+      "dst": [
+        6,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "Net_20",
+      "src_pin": "P3",
+      "dst_pin": "P2",
+      "src": [
+        2,
+        6,
+        0
+      ],
+      "dst": [
+        6,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "Net_21",
+      "src_pin": "P2",
+      "dst_pin": "P3",
+      "src": [
+        6,
+        3,
+        0
+      ],
+      "dst": [
+        2,
+        6,
+        0
+      ]
+    }
+  ],
+  "created_at": "20251105_174854"
+}

@@ -1,0 +1,196 @@
+{
+  "experiment": "compare_routers_10x10_956",
+  "rows": 10,
+  "cols": 10,
+  "blocked": [],
+  "total_nets": 9,
+  "pins": {
+    "P4": {
+      "coords": [
+        7,
+        1,
+        0
+      ]
+    },
+    "P9": {
+      "coords": [
+        1,
+        2,
+        0
+      ]
+    },
+    "P5": {
+      "coords": [
+        1,
+        0,
+        0
+      ]
+    },
+    "P1": {
+      "coords": [
+        3,
+        7,
+        0
+      ]
+    },
+    "P3": {
+      "coords": [
+        5,
+        5,
+        0
+      ]
+    },
+    "P8": {
+      "coords": [
+        8,
+        7,
+        0
+      ]
+    },
+    "P7": {
+      "coords": [
+        9,
+        4,
+        0
+      ]
+    }
+  },
+  "nets": [
+    {
+      "name": "Net_1",
+      "src_pin": "P4",
+      "dst_pin": "P9",
+      "src": [
+        7,
+        1,
+        0
+      ],
+      "dst": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "Net_2",
+      "src_pin": "P5",
+      "dst_pin": "P1",
+      "src": [
+        1,
+        0,
+        0
+      ],
+      "dst": [
+        3,
+        7,
+        0
+      ]
+    },
+    {
+      "name": "Net_3",
+      "src_pin": "P3",
+      "dst_pin": "P1",
+      "src": [
+        5,
+        5,
+        0
+      ],
+      "dst": [
+        3,
+        7,
+        0
+      ]
+    },
+    {
+      "name": "Net_4",
+      "src_pin": "P3",
+      "dst_pin": "P1",
+      "src": [
+        5,
+        5,
+        0
+      ],
+      "dst": [
+        3,
+        7,
+        0
+      ]
+    },
+    {
+      "name": "Net_5",
+      "src_pin": "P4",
+      "dst_pin": "P8",
+      "src": [
+        7,
+        1,
+        0
+      ],
+      "dst": [
+        8,
+        7,
+        0
+      ]
+    },
+    {
+      "name": "Net_6",
+      "src_pin": "P4",
+      "dst_pin": "P7",
+      "src": [
+        7,
+        1,
+        0
+      ],
+      "dst": [
+        9,
+        4,
+        0
+      ]
+    },
+    {
+      "name": "Net_7",
+      "src_pin": "P3",
+      "dst_pin": "P4",
+      "src": [
+        5,
+        5,
+        0
+      ],
+      "dst": [
+        7,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "Net_8",
+      "src_pin": "P5",
+      "dst_pin": "P8",
+      "src": [
+        1,
+        0,
+        0
+      ],
+      "dst": [
+        8,
+        7,
+        0
+      ]
+    },
+    {
+      "name": "Net_9",
+      "src_pin": "P1",
+      "dst_pin": "P4",
+      "src": [
+        3,
+        7,
+        0
+      ],
+      "dst": [
+        7,
+        1,
+        0
+      ]
+    }
+  ],
+  "created_at": "20251105_210830"
+}

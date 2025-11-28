@@ -1,0 +1,159 @@
+{
+  "experiment": "compare_routers_10x10_934",
+  "rows": 10,
+  "cols": 10,
+  "blocked": [],
+  "total_nets": 7,
+  "pins": {
+    "P4": {
+      "coords": [
+        5,
+        3,
+        0
+      ]
+    },
+    "P6": {
+      "coords": [
+        3,
+        4,
+        0
+      ]
+    },
+    "P5": {
+      "coords": [
+        1,
+        4,
+        0
+      ]
+    },
+    "P7": {
+      "coords": [
+        2,
+        9,
+        0
+      ]
+    },
+    "P2": {
+      "coords": [
+        0,
+        1,
+        0
+      ]
+    },
+    "P3": {
+      "coords": [
+        8,
+        3,
+        0
+      ]
+    }
+  },
+  "nets": [
+    {
+      "name": "Net_1",
+      "src_pin": "P4",
+      "dst_pin": "P6",
+      "src": [
+        5,
+        3,
+        0
+      ],
+      "dst": [
+        3,
+        4,
+        0
+      ]
+    },
+    {
+      "name": "Net_2",
+      "src_pin": "P5",
+      "dst_pin": "P7",
+      "src": [
+        1,
+        4,
+        0
+      ],
+      "dst": [
+        2,
+        9,
+        0
+      ]
+    },
+    {
+      "name": "Net_3",
+      "src_pin": "P4",
+      "dst_pin": "P5",
+      "src": [
+        5,
+        3,
+        0
+      ],
+      "dst": [
+        1,
+        4,
+        0
+      ]
+    },
+    {
+      "name": "Net_4",
+      "src_pin": "P6",
+      "dst_pin": "P2",
+      "src": [
+        3,
+        4,
+        0
+      ],
+      "dst": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "Net_5",
+      "src_pin": "P5",
+      "dst_pin": "P6",
+      "src": [
+        1,
+        4,
+        0
+      ],
+      "dst": [
+        3,
+        4,
+        0
+      ]
+    },
+    {
+      "name": "Net_6",
+      "src_pin": "P3",
+      "dst_pin": "P2",
+      "src": [
+        8,
+        3,
+        0
+      ],
+      "dst": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "Net_7",
+      "src_pin": "P3",
+      "dst_pin": "P2",
+      "src": [
+        8,
+        3,
+        0
+      ],
+      "dst": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "created_at": "20251105_205913"
+}
